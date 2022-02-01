@@ -1,0 +1,150 @@
+
+#aa {
+    font-family: Arial;
+    font-size: 60;
+    font-display: fallback;
+    font-style: italic;
+    color:ghostwhite;
+   
+}
+body{
+    background-color: rgba(167, 227, 107, 0.79);
+}
+
+#ab {
+    
+  background-color: #af98c3;
+}
+
+
+#ac {
+    background-color: coral;
+    width: 40%;
+}
+
+#ad {
+    position: absolute;
+    margin-left: 30;
+    width: 35%;
+    margin-top: 40;
+    border: 6px solid;
+    border-color:crimson;
+}
+
+#ae {
+    width:20%;
+    position: absolute;
+    margin-left: 570;
+    border:3px solid;
+    border-color:chocolate;
+    
+}
+
+#af {
+    width:20%;
+    position: absolute;
+    margin-left: 970;
+    margin-top: 120;
+    border:3px solid;
+    border-color:#13aae2;
+}
+
+#ag {
+    width:20%;
+    position: absolute;
+    margin-left: 570;
+    margin-top: 290;
+    border:3px solid;
+    border-color:#1e7fd2;
+}
+
+#ah {
+    width:20%;
+    position: absolute;
+    margin-left: 970;
+    margin-top: 490;
+    border:3px solid;
+    border-color:#ed1223;
+}
+
+#ai {
+    width:18%;
+    position: absolute;
+    margin-left: 570;
+    margin-top: 590;
+    border:3px solid;
+    border-color:#fafa00;
+}
+
+#aj {
+    width:20%;
+    position: absolute;
+    margin-left: 970;
+    margin-top: 990;
+    border:3px solid;
+    border-color:#1d49db;
+}
+
+#ae {
+    
+}
+
+#ak {
+    font-family:arial;
+    font-size: 32;
+    font-style: italic;
+    background-color: beige;
+}
+
+#al {
+    font-size: 35;
+    font-family: arial;
+    font-display: fallback;
+    font-style: oblique;
+    position: absolute;
+    margin-top:1250;
+    background-color: chartreuse;
+}
+
+#am {
+    width:28%;
+    position: absolute;
+    margin-top:1640;
+    margin-left:3; 
+    border: 3px solid;
+    border-color: orange;
+    
+}
+
+#an {
+    width:25%;
+    position: absolute;
+    margin-top:1640;
+    margin-left:459;
+    border: 3px solid;
+    border-color: orange;
+    
+}
+
+#ao {
+    width:25%;
+    position: absolute;
+    margin-top:1640;
+    margin-left:911;
+    border: 3px solid;
+    border-color: orange;
+    
+}
+
+#rty {
+    font-size: 30;
+    font-family: fantasy;
+    text-align: right;
+}
+
+#lkj {
+    position: absolute;
+    margin-top: 30;
+    margin-left: 1250;
+    
+}

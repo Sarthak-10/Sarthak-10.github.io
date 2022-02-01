@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["username"].value;
+var x1 = document.forms["myForm"]["query"].value;
+ var x2 = document.forms["myForm"]["email"].value;
+
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+else if  (x1 == "") {
+    alert("query must be filled out");
+    return false;
+  }
+
+else if (x2 == "") {
+    alert("email must be filled out");
+    return false;
+  }
+
+
+
+	
+                var genders = document.getElementsByName("gender");
+                if (genders[0].checked == true) {
+                    ;
+                   <!-- alert("Your gender is male");   -->
+                } else if (genders[1].checked == true) {
+                    ;
+                   <!-- alert("Your gender is female");  -->
+                } else {
+                    // no checked
+                    var msg = '<span style="color:red;">You must select your gender!</span><br /><br />';
+               <!--     document.getElementById('msg').innerHTML = msg;   -->
+		alert("any gender must be selected");
+                    return false;
+                }
+                return true;
+            }
+
+
+
+
+
+</script>
+</head>
+<body bgcolor=aqua>
+
+<table background="Images\combo.jpg" width=100% >
+
+<tr><td align=center>
+<font color="white">
+<p style="font-size:300%">QUERY FORM</p>
+</font>
+</td></tr></table>
+<br>
+<a href="COVID-19%20MAIN%20FILE.html">HOME</a>
+<br><br>
+
+<form method="post" name="myForm" action="response.html" onsubmit="return validateForm()">
+
+<center>
+
+<table>
+<tr>
+<td><font size=6 color=green>Enter Name</td>
+<td><font size=6 color=green><input type="textbox" name="username"></td>
+</tr>
+
+
+<tr><td></td></tr>
+
+<tr>
+<td><font size=6 color=green>Enter your query</td>
+<td><font size=6 color=green><textarea name="query" rows=10 cols=80></textarea></td>
+</tr>
+
+<tr>
+<td><font size=6 color=green>Enter email</td>
+<td><font size=6 color=green><input type="textbox" name="email"></td>
+</tr>
+
+<tr>
+<td><font size=6 color=green>Male</td>
+<td><font size=6 color=green><input type="radio" name="gender"></td>
+<tr>
+
+<tr>
+<td><font size=6 color=green>Female</td>
+<td><font size=6 color=green><input type="radio" name="gender"></td>
+</tr>
+
+
+<tr><td colspan=2 align=center><input type="submit" value="submit"></td></tr>
+</table>
+
+
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

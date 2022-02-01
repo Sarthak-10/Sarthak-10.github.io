@@ -1,0 +1,201 @@
+<html>
+    <head>
+        <title>Protective Gear</title>
+        <link rel="stylesheet" href="pg.css">
+    </head>
+    
+    <body background="Images\image.jpg">
+        
+        <div id="lkj"><font id="rty"><a href="COVID-19%20MAIN%20FILE.html">HOME</a></font></div><div id="ab"><marquee behavior="slide" width="85%" scrollamount="15">
+            <font id="aa"><b>Protective Gear</b></font></marquee></div>
+        
+        <hr color="red" size="4">
+        <hr color="yellow" size="4">
+        
+        <p id="ak"><font size="40"><b>P</b></font>ersonal <b>P</b>rotective <b>E</b>quipments (PPEs) are <b>protective gears</b> designed to safeguard the health of hospital staff workers by minimising the exposure to any  biological agent.These protective gears are specially for the use by Covid patients,doctors,ambulance drivers and other medical Covid related staff.</p>
+        
+        <img src="Images\pic013.png"id="ad">
+        <img src="Images\pic014.png"id="ae" onmouseover="start();" onmouseout="end();">
+        <img src="Images\pic015.jpg"id="af" onmouseover="start2();" onmouseout="end2();">
+        <img src="Images\pic016.jpg"id="ag" onmouseover="start3();" onmouseout="end3();">
+        <img src="Images\pic017.jpg"id="ah" onmouseover="start4();" onmouseout="end4();">
+        <img src="Images\pic018.jpg"id="ai" onmouseover="start5();" onmouseout="end5();">
+        <img src="Images\pic019.jpg"id="aj" onmouseover="start6();" onmouseout="end6();">
+        
+        <p id="al"><b><u>Protective gears and general advisory for Common Public:-</u></b>
+        <br>
+        <br>
+        <b><font size="40">T</font></b>he PPE kits which comprise of the invaluble protective items,are of great use to the medical staff,but the general public also needs to wear some protective equipment depending on their daily routines and professions.These include masks for all,gloves and face shield for those interacting with a lot of people,etc.The correct way to wear these and their importance have been described below...
+            
+            <br><b><i>[Hover over an image to zoom it]</i></b><br>
+        </p>
+        
+        <img src="Images/pic028.PNG" id="am" onmouseover="start7();"onmouseout="end7();">
+        <img src="Images/pic029.jpg" id="an"onmouseover="start8();"onmouseout="end8();">
+        <img src="Images/pic030.jpg" id="ao"onmouseover="start9();"onmouseout="end9();">
+        
+    </body>
+</html>
+
+<script>
+    function start()
+    {
+        document.getElementById("ae").src="Images/pic020.png";
+    }
+function end()
+    {
+        document.getElementById("ae").src="Images/pic014.png";
+    }
+function start2()
+    {
+        document.getElementById("af").src="Images/pic021.png";
+    }
+function end2()
+    {
+        document.getElementById("af").src="Images/pic015.jpg";
+    }
+function start3()
+    {
+        document.getElementById("ag").src="Images/pic022.png";
+    }
+function end3()
+    {
+        document.getElementById("ag").src="Images/pic016.jpg";
+    }
+function start4()
+    {
+        document.getElementById("ah").src="Images/pic023.png";
+    }
+function end4()
+    {
+        document.getElementById("ah").src="Images/pic017.jpg";
+    }
+function start5()
+    {
+        document.getElementById("ai").src="Images/pic024.png";
+    }
+function end5()
+    {
+        document.getElementById("ai").src="Images/pic018.jpg";
+    }
+ function start6()
+    {
+        document.getElementById("aj").src="Images/pic025.png";
+    }
+function end6()
+    {
+        document.getElementById("aj").src="Images/pic019.jpg";
+    }
+    
+    var a=0;
+    var b=410;
+    var c=2;
+    var a1=0;
+    var b1=345;
+    var c1=2;
+    var a2=0;
+    var b2=345;
+    var c2=2;
+function expand()
+    {
+        if(b<450)
+            {
+                b=b+c;
+                document.getElementById("am").style.width=b;
+            }
+        else
+            {
+                clearInterval(a);
+            }
+    }
+function shrink()
+    {
+        if(b>390)
+            {
+                b=b-c;
+                document.getElementById("am").style.width=b;
+            }
+        else
+            {
+                clearInterval(a);
+            }
+    }
+function start7()
+    {
+        clearInterval(a);
+        a=setInterval(expand,20); 
+    }
+function end7()
+    {
+        clearInterval(a);
+        a=setInterval(shrink,20); 
+    }
+    function expand2()
+    {
+        if(b1<450)
+            {
+                b1=b1+c1;
+                document.getElementById("an").style.width=b1;
+            }
+        else
+            {
+                clearInterval(a1);
+            }
+    }
+function shrink2()
+    {
+        if(b1>345)
+            {
+                b1=b1-c1;
+                document.getElementById("an").style.width=b1;
+            }
+        else
+            {
+                clearInterval(a1);
+            }
+    }
+function start8()
+    {
+        clearInterval(a1);
+        a1=setInterval(expand2,20); 
+    }
+function end8()
+    {
+        clearInterval(a1);
+        a1=setInterval(shrink2,20); 
+    }
+    function expand3()
+    {
+        if(b2<430)
+            {
+                b2=b2+c2;
+                document.getElementById("ao").style.width=b2;
+            }
+        else
+            {
+                clearInterval(a2);
+            }
+    }
+function shrink3()
+    {
+        if(b2>345)
+            {
+                b2=b2-c2;
+                document.getElementById("ao").style.width=b2;
+            }
+        else
+            {
+                clearInterval(a2);
+            }
+    }
+function start9()
+    {
+        clearInterval(a2);
+        a2=setInterval(expand3,20); 
+    }
+function end9()
+    {
+        clearInterval(a2);
+        a2=setInterval(shrink3,20); 
+    }
+</script>
